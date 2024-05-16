@@ -9,6 +9,7 @@ import axios from "axios";
 import toast from "react-hot-toast";
 import { Context } from "../../main";
 
+
 const Register = () => {
   const [email, setEmail] = useState("");
   const [name, setName] = useState("");
@@ -73,7 +74,7 @@ const Register = () => {
               <div>
                 <input
                   type="text"
-                  placeholder="Zeeshan"
+                  placeholder="Abhishek"
                   value={name}
                   onChange={(e) => setName(e.target.value)}
                 />
@@ -85,7 +86,7 @@ const Register = () => {
               <div>
                 <input
                   type="email"
-                  placeholder="zk@gmail.com"
+                  placeholder="abhishek@gmail.com"
                   value={email}
                   onChange={(e) => setEmail(e.target.value)}
                 />
